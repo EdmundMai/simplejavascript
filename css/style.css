@@ -1,0 +1,43 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-image: url('../images/lava-rock.gif');
+}
+
+
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-family: Times;
+	color: white;
+	display: block;
+}
+
+.photoholder {
+	width: 960px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.centering {
+	margin: 0 auto;
+	width: 880px;
+}
+
+.pic {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 10px;
+}
